@@ -1,0 +1,363 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0;
+    background-image: url(images/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+.navigation>a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 40px;
+    font-weight: 700;
+
+}
+
+.navigation {
+    margin-top: 30px;
+    padding-right: 30px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 0px 0px 20px 20px;
+    position: relative;
+    width: 100%;
+}
+
+.logo:hover>.logo-image {
+    transform: rotate(360deg);
+    transition: transform 1s linear;
+}
+
+.name-moto {
+    margin: 200px auto;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    text-align: center;
+    line-height: 200%;
+
+
+}
+
+.name-moto>h1 {
+    font-size: 60px;
+    margin: 50px auto;
+}
+
+.name-moto>p {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgba(253, 253, 253, 0.5);
+    margin: 250px auto;
+    width: 80%;
+    height: 700px;
+    border-radius: 2%;
+    padding: 2%;
+}
+
+.container:hover {
+    background-color: rgba(253, 253, 253, 0.8);
+    box-shadow: 20px 20px 20px 0.5;
+}
+
+.item1 {
+    width: 100%;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.item1>p {
+    margin-top: 150px;
+}
+
+.container>.item1 {
+    padding: 10px;
+}
+
+.item2 {
+    width: 100%;
+
+    font-weight: 700;
+    text-align: justify;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+/* .item2>p {
+    overflow: scroll;
+    overflow-x: hidden; */
+}
+
+.container>.item2 {
+    padding: 20px;
+}
+
+.container2 {
+    margin: 0px auto;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100% auto;
+    height: fit-content;
+    gap: 20px;
+    background-color: rgba(53, 140, 253, 0.4);
+    padding: 20px;
+    color: white;
+
+    text-align: center;
+
+}
+
+.Depts {
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(103, 138, 235);
+    margin-bottom: 00px;
+}
+
+.container2:hover {
+    background-color: rgba(53, 140, 253, 0.9);
+    transition: 1.5s;
+}
+
+.item3:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.item4:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.item5:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.item6:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.item7:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.item8:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.item9:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.container3 {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 90% auto;
+    height: fit-content;
+    padding: 30px 30px 30px 70px;
+    margin-top: 100px;
+}
+
+.container3:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: 1s;
+}
+
+.container3>ul {
+    font-size: 1.2rem;
+    font-weight: 700;
+    list-style-type: decimal;
+}
+
+.Appointment {
+
+    background-color: rgb(146, 146, 247);
+    color: white;
+}
+
+.container5 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.item10 {
+    height: 500px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.container5>.item10>.container5-1>.items {
+
+    background-color: aquamarine;
+    border-radius: 1px;
+    height: 10px;
+    padding: 2px;
+    text-align: center;
+
+
+
+}
+
+.container5>.item10>.container5-1>.items-n {
+
+    background-color: rgb(173, 173, 173);
+    border-radius: 1px;
+    height: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: aliceblue;
+
+    padding: 2px;
+
+}
+
+.container5-1 {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container5>.item10>.container5-1>.day {
+    text-align: center;
+    height: 10px;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+
+}
+
+.calender {
+    width: 25%;
+    padding: 5px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(7, 0.5fr);
+    background-color: rgb(24, 140, 255);
+    border-radius: 10px;
+
+}
+
+.items {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.Last {
+    background-color: rgb(187, 187, 187);
+}
+
+.day {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+.box {
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+
+}
+
+.container6 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(24, 140, 255, 0.5);
+    height: fit-content;
+    width: 100%;
+    padding: 50px 0 50px 0;
+}
+
+.container6:hover {
+    background-color: rgba(155, 205, 255, 0.7);
+    transition: 1s;
+}
+
+.form {
+
+    background-color: rgba(24, 140, 255, 0.6);
+    font-weight: 700;
+    padding: 20px;
+    border-radius: 20px;
+    line-height: 180%;
+}
+
+.form>input {
+    -moz-box-direction: none;
+}
+
+.footer {
+    background-color: rgba(133, 172, 255, 0.5);
+    padding-left: 50px;
+    padding-top: 50px;
+
+}
+
+.footer:hover {
+    background-color: rgba(133, 172, 255, 0.8);
+    transition: 1s;
+}
+
+.footer>h3 {
+    text-align: center;
+}
